@@ -22,7 +22,7 @@ https://github.com/JavierEAcevedoN/Galeria_de_imagenes_interactiva.git
 ```
 ### Uso
 Puedes clonar el repositorio y ejecutar el index.html o puedes utilizar este link:  
-- [Galeria de imagenes interactiva](https://example.com/)
+- [Galeria de imagenes interactiva](https://javiereacevedon.github.io/Galeria_de_imagenes_interactiva/)
 ### Autor
 - [JavierEAcevedoN](https://github.com/JavierEAcevedoN)
 ### Contacto
