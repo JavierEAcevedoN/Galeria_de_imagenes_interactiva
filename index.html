@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Galeria de imagenes interactiva</title>
+        <script defer src="./script.js"></script>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <h1>Galeria de imagenes</h1>
+        <h1>interactivas</h1>
+        <div id="contenedor_principal_galeria">
+            <div id="contenedor_agregar">
+                <div>
+                    <h2>Link:</h2>
+                    <input
+                        type="text"
+                        id="agregar_link"
+                        placeholder="Agrega el Link de la imagen aqui"
+                    />
+                    <h2>Título:</h2>
+                    <input
+                        type="text"
+                        id="agregar_titulo"
+                        placeholder="Agrega el Titulo de la imagen aqui"
+                    />
+                </div>
+                <div>
+                    <h2>Descripción:</h2>
+                    <textarea
+                        id="agregar_descripcion"
+                        placeholder="Agrega la descripción de la imagen aqui"
+                    ></textarea>
+                    <button id="agregar_boton">Agregar imagen</button>
+                </div>
+            </div>
+            <div id="contenedor_galeria_imagenes">
+                <div class="contenedor_galeria">
+                    <img
+                        class="contenedor_galeria_imagen"
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        alt="GitHub"
+                    />
+                    <h3 class="contenedor_galeria_titulo">GitHub</h3>
+                    <p
+                        class="contenedor_galeria_descripcion"
+                        style="display: none"
+                    >
+                        El icono de GitHub
+                    </p>
+                    <div class="contenedor_galeria_botones">
+                        <button
+                            class="mostar_descripcion"
+                            onclick="mostarDescripcion(event)"
+                        >
+                            Alternar descripción
+                        </button>
+                        <button
+                            class="eliminar_imagen"
+                            onclick="eliminarImagen(event)"
+                        >
+                            Eliminar imagen
+                        </button>
+                    </div>
+                </div>
+                <div class="contenedor_galeria">
+                    <img
+                        class="contenedor_galeria_imagen"
+                        src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6918e57475a843f59f_icon_clyde_black_RGB.svg"
+                        alt="Discord"
+                    />
+                    <h3 class="contenedor_galeria_titulo">Discord</h3>
+                    <p
+                        class="contenedor_galeria_descripcion"
+                        style="display: none"
+                    >
+                        El icono de Discord
+                    </p>
+                    <div class="contenedor_galeria_botones">
+                        <button
+                            class="mostar_descripcion"
+                            onclick="mostarDescripcion(event)"
+                        >
+                            Alternar descripción
+                        </button>
+                        <button
+                            class="eliminar_imagen"
+                            onclick="eliminarImagen(event)"
+                        >
+                            Eliminar imagen
+                        </button>
+                    </div>
+                </div>
+                <div class="contenedor_galeria">
+                    <img
+                        class="contenedor_galeria_imagen"
+                        src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+                        alt="YouTube"
+                    />
+                    <h3 class="contenedor_galeria_titulo">YouTube</h3>
+                    <p
+                        class="contenedor_galeria_descripcion"
+                        style="display: none"
+                    >
+                        El icono de YouTube
+                    </p>
+                    <div class="contenedor_galeria_botones">
+                        <button
+                            class="mostar_descripcion"
+                            onclick="mostarDescripcion(event)"
+                        >
+                            Alternar descripción
+                        </button>
+                        <button
+                            class="eliminar_imagen"
+                            onclick="eliminarImagen(event)"
+                        >
+                            Eliminar imagen
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
